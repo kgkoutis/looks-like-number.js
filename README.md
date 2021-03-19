@@ -1,4 +1,4 @@
-# looks-like-number
+# looks-like-number.js
 
 General utility function to verify its argument looks like a number
 
