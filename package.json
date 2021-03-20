@@ -23,7 +23,7 @@
       "test": "test"
    },
    "files": [
-      "index.js"
+      "looks-like-number.js"
    ],
    "homepage": "https://github.com/kgkoutis/looks-like-number.js/",
    "license": "ISC",
