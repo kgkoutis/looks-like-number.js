@@ -28,7 +28,7 @@ looksLikeNumb('') // false
 looksLikeNumb(' 44') // false
 looksLikeNumb('15 ') // false
 looksLikeNumb(' 5 ') // false
-looksLikeNumb(' 44', allowLeftRightSpaces) // false
+looksLikeNumb(' 44', allowLeftRightSpaces) // true
 looksLikeNumb('15 ', allowLeftRightSpaces) // true
 looksLikeNumb(' 5 ', allowLeftRightSpaces) // true
 looksLikeNumb(' ', allowLeftRightSpaces) // false
