@@ -2,7 +2,7 @@
    "name": "looks-like-number",
    "version": "1.0.3",
    "description": "General utility function to verify its argument looks like a number",
-   "main": "index.js",
+   "main": "looks-like-number.js",
    "scripts": {
       "test": "tap --coverage test/*.js"
    },
