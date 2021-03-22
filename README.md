@@ -1,5 +1,5 @@
 [![npm version](https://badge.fury.io/js/looks-like-number.svg)](https://badge.fury.io/js/looks-like-number)
-[![Build Status](https://api.travis-ci.com/repos/kgkoutis/looks-like-number.js.svg?branch=master)](https://api.travis-ci.com/repos/kgkoutis/looks-like-number)
+[![Build Status](https://api.travis-ci.org/repos/kgkoutis/looks-like-number.js.svg?branch=main)](https://api.travis-ci.org/repos/kgkoutis/looks-like-number.js?branch=main)
 [![Coverage Status](https://coveralls.io/repos/github/kgkoutis/looks-like-number.js/badge.svg?branch=main)](https://coveralls.io/github/kgkoutis/looks-like-number.js?branch=main)
 
 # looks-like-number.js
