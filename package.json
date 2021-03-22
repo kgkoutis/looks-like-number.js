@@ -1,12 +1,12 @@
 {
    "name": "looks-like-number",
-   "version": "1.0.5",
+   "version": "1.0.5-0",
    "description": "General utility function to verify its argument looks like a number",
    "main": "looks-like-number.js",
    "scripts": {
       "test": "tap --coverage test/*.js"
    },
-   "keywords": [],
+   "keywords": ["number-like", "string-like", "is-string", "is-number", "looks-like"],
    "author": {
       "name": "Kostas Gkoutis",
       "email": "cgoutis@hotmail.com",
