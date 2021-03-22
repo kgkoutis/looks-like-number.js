@@ -1,6 +1,6 @@
 {
    "name": "looks-like-number",
-   "version": "1.0.5-0",
+   "version": "1.0.5",
    "description": "General utility function to verify its argument looks like a number",
    "main": "looks-like-number.js",
    "scripts": {
