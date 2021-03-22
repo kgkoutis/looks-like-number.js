@@ -6,7 +6,7 @@
    "scripts": {
       "test": "tap --coverage test/*.js"
    },
-   "keywords": [],
+   "keywords": ["number-like", "string-like", "is-string", "is-number", "looks-like"],
    "author": {
       "name": "Kostas Gkoutis",
       "email": "cgoutis@hotmail.com",
