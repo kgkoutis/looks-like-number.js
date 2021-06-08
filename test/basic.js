@@ -2,7 +2,7 @@ var test = require('tap').test
 var looksLikeNumber = require('../looks-like-number.js')
 
 test('basic', function (t) {
-  
+
   var testCases = [
     [0, true],
     ['0', true],
@@ -16,10 +16,22 @@ test('basic', function (t) {
     ['+1,5', true],
     ['1,5,1', false],
     ['..,.,', false],
+    ['2,078.1', true],
+    ['2,078,555.1', true],
+    ['20,785,55.1', false],
+    ['2,078,asda.1', false],
+    ['2,07,855.1', false],
+    ['2.078,555.1', false],
+    ['2,078,555,999', false],
+    ['20785,559,991,00', false],
+    ['2,078555.1', false],
+    ['2,3.1', false],
+    ['2,.1', false],
+    ['-2,078.1', true],
     ['-', false],
     ['+', false],
     [null, false],
-    [ '111a111', false ],
+    ['111a111', false ],
     ['',false],
     [[], false],
     [[''], false],
